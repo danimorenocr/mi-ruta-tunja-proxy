@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "https://mirutatunja-front.danimorenocr.workers.dev/$1"
+    }
+  ]
+}
