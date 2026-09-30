@@ -1,8 +1,7 @@
 {
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "https://mirutatunja-front.danimorenocr.workers.dev/$1"
+  "functions": {
+    "middleware.ts": {
+      "runtime": "nodejs20.x"
     }
-  ]
+  }
 }
