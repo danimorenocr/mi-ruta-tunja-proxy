@@ -1,0 +1,17 @@
+{
+  "name": "mi-ruta-tunja-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server for Mi Ruta Tunja with Vercel Analytics",
+  "type": "module",
+  "scripts": {
+    "build": "echo 'Build successful'",
+    "lint": "echo 'No linting configured'"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "typescript": "^7.0.2"
+  }
+}
